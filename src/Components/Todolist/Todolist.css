@@ -1,0 +1,43 @@
+.todolist{
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    margin-top: 5%;
+}
+.input-field{
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 2rem;
+}
+.add-btn{
+    padding: 4px;
+    border-radius: 7px;
+    background-color: #383e56;
+    color: #fff;
+}
+.add-btn:hover , .add-btn:focus{
+    background-color: #120136;
+}
+.work-list{
+    width: 50%;
+    padding: 20px;
+    border-radius: 7px;
+    margin: 15px auto;
+    background-color: rgb(206, 38, 38);
+    color: #fff;
+}
+.work-list:hover{
+    background-color: rgb(168, 16, 16);
+}
+.text-design{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    word-spacing: 5px;
+}
+
+@media screen and (max-width: 684px){
+    .input-field{
+        display: block;
+        margin: 10px auto;
+    }
+}
